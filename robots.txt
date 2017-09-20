@@ -1,0 +1,18 @@
+User-agent: *
+Disallow: /img/
+Disallow: 404.html
+Disallow: /plugin/
+
+Allow: /og
+
+User-agent: Googlebot-Image
+Disallow: /img/
+Disallow: 404.html
+Disallow: /plugin/
+
+Allow: /og
+
+User-agent: Twitterbot
+Disallow: *
+
+Allow: /og
