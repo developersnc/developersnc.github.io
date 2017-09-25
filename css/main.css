@@ -1,39 +1,32 @@
 body {
   font-family: 'Roboto', helvetica, arial, sans-serif;
-  margin: 0;
+  padding: 10% 10% 0% 15%;
 }
 
-.container {
-  height: 100vh;
-  display: flex;
-}
-
-
-/* content style */
 .note {
-  margin: 200px;
+  margin-left: 50px;
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 3em;
   color: #6A90E5;
   font-weight: 100;
+  margin: 2% 0%;
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 2em;
   color: #CCCCCC;
   font-weight: 100;
+  margin: 0;
 }
 
-
-/* buttons style */
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .buttons {
-  margin: 200px 200px 0px;
+  margin-top: 20%;
 }
 
 .btn {
@@ -42,10 +35,11 @@ a {
   border: none;
   color: #000000;
   font-size: 18px;
-  margin: 20px;
+  margin: 25px 25px 25px 50px;
   border-radius: 50px;
   line-height: 1.4;
   padding: 6px 15px;
+  width: 210px;
 }
 
 .btn:hover {
@@ -58,8 +52,91 @@ a {
   vertical-align: middle;
 }
 
+.col-illustration {
+  text-align: center;
+}
 
-/* illustration style */
 .illustration {
-  margin: 250px 50px 0px;
+  text-align: center;
+}
+
+.column-6 {
+  float: left;
+  width: 50%;
+}
+
+@media only screen and (max-width: 1664px) {
+
+  .note {
+    margin-left: 0px;
+  }
+
+  .buttons {
+    margin-top: 30%;
+  }
+
+  .btn {
+    margin: 2px;
+  }
+}
+
+@media only screen and (max-width: 1173px) {
+
+  body {
+    padding-top: 5%;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  .buttons {
+    margin: 25px;
+  }
+
+  .btn {
+    margin: 10px;
+  }
+
+  .column-6 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  .note {
+    margin-bottom: 3%;
+  }
+
+  .buttons {
+    margin: 30px 0px 30px 0px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+
+  body {
+      padding: 5%;
+  }
+
+  .illustration {
+    width: 70%;
+  }
 }
