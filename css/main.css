@@ -31,7 +31,7 @@ a {
 
 .btn {
   display: inline-flex;
-  background-color: #EEEEEE;
+  background-color: #e2e2e2;
   border: none;
   color: #000000;
   font-size: 18px;
@@ -40,11 +40,13 @@ a {
   line-height: 1.4;
   padding: 6px 18px;
   width: 220px;
+  outline: none;
+  cursor: pointer;
+  transition-duration: 300ms;
 }
 
 .btn:hover {
-  background-color: #6A90E5;
-  color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.22);
 }
 
 .icon {
